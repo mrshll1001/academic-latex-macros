@@ -1,0 +1,17 @@
+% My first package, containing a place to dump the macros I find useful to quickly format text in academia -- currently used for papers, thesis writing, and fieldwork diaries.
+% Designed for my use, but decided to make it public.
+% (c) Matt Marshall
+%
+%% This package is released under the General Public License (GPL) version 3 and is subject to the terms and conditions within it.
+%% A copy of this license is included in the repository https://github.com/mrshll1001/academic-latex-macros/LICENSE
+%% 
+% 
+
+\NeedsTeXFormat{LaTeX2e}[1994/06/01]
+\ProvidesPackage{academicmacros}
+  [2016/04/13 v0.01 LaTeX package for my own use but could be useful, providing shortcuts for marking up text quickly]
+  
+\newcommand{\quoteit}[1]{\textit{``#1''}} % Quote inline simply, automatically adds speech marks and makes it italic.
+\newcommand{\bollocks}[1]{\textcolor{red}{\uppercase{#1}}} % Highlights the err, filler, in a document that you want to come back to later
+  
+\endinput
