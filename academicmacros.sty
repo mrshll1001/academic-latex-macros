@@ -10,11 +10,16 @@
 \NeedsTeXFormat{LaTeX2e}[1994/06/01]
 \ProvidesPackage{academicmacros}
   [2016/04/13 v0.01 LaTeX package for my own use but could be useful, providing shortcuts for marking up text quickly]
-  
+
+%% GENERAL USE %%  
 \newcommand{\quoteit}[1]{\textit{``#1''}} % Quote inline simply, automatically adds speech marks and makes it italic.
+
 \newcommand{\note}[1]{\textcolor{blue}{(\textbf{#1})}} % Brackets the contents, makes blue and bold. I use it to add notes to fieldwork diaries to follow up on later.
 
 \newcommand{\bollocks}[1]{\textcolor{red}{\uppercase{#1}}} % Highlights the err, filler, in a document that you want to come back to later
+
+%% TRANSCRIPTS %%
+\newcommand{\crosstalk}[1]{\{1\}}
 
   
 \endinput
